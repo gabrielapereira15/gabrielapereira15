@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://github.com/gabrielapereira15">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=14B8A6&center=true&vCenter=true&width=650&lines=Software+Developer;Mobile+%26+Full-Stack+Apps;Java+%C2%B7+Android+%C2%B7+React+%C2%B7+Node.js;Building+MediConnect+%F0%9F%A9%BA" alt="Software Developer · Mobile & Full-Stack Apps · Java · Android · React · Node.js"/>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=14B8A6&center=true&vCenter=true&width=700&lines=Software+Developer;FHIR%2FHL7+Conformance+Testing;Java+%C2%B7+Python+%C2%B7+JavaScript+%C2%B7+REST+APIs;Mobile+%26+Full-Stack+Apps" alt="Software Developer · FHIR/HL7 Conformance Testing · Java · Python · JavaScript · REST APIs · Mobile & Full-Stack Apps"/>
   </a>
 </p>
 
@@ -15,11 +15,12 @@
 
 ### 🙋‍♀️ About me
 
-- 🇨🇦 Software developer based in Ontario, Canada, originally from Brazil 🇧🇷 (English & Portuguese)
-- 🎓 **Mobile Solutions Development** post-graduate program at Conestoga College
-- 🎓 **Systems Analysis & Development** (Análise e Desenvolvimento de Sistemas) in Brazil
-- 🩺 Building **MediConnect**, a healthcare platform with a patient app and a clinic back office
-- 🧪 I care about quality: I write automated tests (Cucumber, unit testing) alongside features
+Software developer with 4+ years of experience in backend development, system integration and test automation, now focused on **healthcare interoperability**.
+
+- 💼 **Software Developer at Venuiti Solutions** (Kitchener, ON): I build conformance tests that check whether health systems meet **FHIR/HL7** specifications, using Java, Cucumber and JavaScript. As a business analyst, I also analyze specifications and turn them into use cases and test scenarios.
+- ⚙️ **Delfia (Brazil)**: I grew from intern to leading the Automation & Observability team of four. Our Python automations on REST and SOAP APIs cut repetitive work by 95%, and our automated dashboards cut report generation from a week to a minute.
+- 🎓 **Mobile Solutions Development** at Conestoga College, graduated with distinction · **Systems Analysis & Development** at Impacta (Brazil)
+- 🇨🇦 Based in Kitchener, Ontario, originally from Brazil 🇧🇷 · English & Portuguese
 
 ---
 
@@ -27,18 +28,22 @@
 
 <p align="center">
   <b>Languages</b><br/>
-  <img src="https://skillicons.dev/icons?i=java,ts,js,python,cs,html,css&perline=7" alt="Java, TypeScript, JavaScript, Python, C#, HTML, CSS"/>
+  <img src="https://skillicons.dev/icons?i=java,python,js,ts,html,css&perline=8" alt="Java, Python, JavaScript, TypeScript, HTML, CSS"/>
 </p>
 <p align="center">
   <b>Frameworks & mobile</b><br/>
-  <img src="https://skillicons.dev/icons?i=react,vite,nodejs,express,androidstudio&perline=7" alt="React, Vite, Node.js, Express, Android Studio"/>
+  <img src="https://skillicons.dev/icons?i=react,vite,nodejs,express,fastapi,androidstudio&perline=8" alt="React, Vite, Node.js, Express, FastAPI, Android Studio"/>
 </p>
 <p align="center">
-  <b>Data, testing & tools</b><br/>
-  <img src="https://skillicons.dev/icons?i=postgres,mongodb,git,github&perline=7" alt="PostgreSQL, MongoDB, Git, GitHub"/><br/>
-  <img src="https://img.shields.io/badge/Cucumber-23D96C?style=flat-square&logo=cucumber&logoColor=white" alt="Cucumber"/>
-  <img src="https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black" alt="Render"/>
-  <img src="https://img.shields.io/badge/Material_Design-757575?style=flat-square&logo=materialdesign&logoColor=white" alt="Material Design"/>
+  <b>Data, cloud & tools</b><br/>
+  <img src="https://skillicons.dev/icons?i=postgres,mongodb,sqlite,aws,git,github,grafana,tailwind&perline=8" alt="PostgreSQL, MongoDB, SQLite, AWS, Git, GitHub, Grafana, Tailwind CSS"/>
+</p>
+<p align="center">
+  <b>Healthcare interoperability & testing</b><br/>
+  <img src="https://img.shields.io/badge/HL7%20%2F%20FHIR-D6282F?style=for-the-badge" alt="HL7 / FHIR"/>
+  <img src="https://img.shields.io/badge/Cucumber-23D96C?style=for-the-badge&logo=cucumber&logoColor=white" alt="Cucumber"/>
+  <img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white" alt="Jira"/>
+  <img src="https://img.shields.io/badge/Kibana-005571?style=for-the-badge&logo=kibana&logoColor=white" alt="Kibana"/>
 </p>
 
 ---
@@ -48,10 +53,12 @@
 <sub>Click a project to expand it.</sub>
 
 <details open>
-<summary><b>🩺 MediConnect</b> · patient management platform for Canadian clinics</summary>
+<summary><b>🩺 MediConnect</b> · patient management app for Canadian clinics</summary>
 <br/>
 
 Patients book in-person or online appointments, fill out pre-appointment forms, and check in virtually. Clinicians and office staff manage the flow from a back office.
+
+I built it as my capstone project for the Mobile Solutions Development program at Conestoga College, then rebuilt it as a portfolio project.
 
 - 📅 Appointment scheduling, in person or online
 - 📝 Pre-appointment forms and virtual check-in
@@ -63,12 +70,27 @@ Patients book in-person or online appointments, fill out pre-appointment forms, 
 </details>
 
 <details>
+<summary><b>⚖️ Advocacia Bot</b> · WhatsApp assistant for a law firm</summary>
+<br/>
+
+A WhatsApp chatbot and web back office I'm building for a law firm in Brazil. It now runs on AWS in a pilot with a practising lawyer.
+
+- 💬 Triages new clients over WhatsApp and routes urgent or sensitive cases to a lawyer
+- 🏛️ Looks up court cases through the CNJ/Datajud public API and explains updates in plain language
+- ✅ Lawyers review and approve every update before a client sees it
+- 📆 Suggests legal deadlines from court notices, applying Brazilian civil-procedure business-day rules
+- 🔐 Role-based access, audit log, and LGPD-compliant data retention, with automated tests
+
+**Stack:** Python · FastAPI · SQLite · Meta WhatsApp Cloud API · Jinja2 · Tailwind CSS · HTMX · AWS · pytest
+</details>
+
+<details>
 <summary><b>🛒 Gabi Fashion Store</b> · full-stack e-commerce app</summary>
 <br/>
 
-A demo boutique with a React front end and an Express + MongoDB REST API.
+A demo boutique with a React front end and an Express + MongoDB REST API. I first built it for a web development course, then rebuilt it as a portfolio project.
 
-- 🛍️ Product catalogue, category filters and a cart that survives a refresh
+- 🛍️ Product catalogue, category filters, and a cart that survives a refresh
 - 💳 Checkout with inline validation and totals computed in cents
 - 🔐 Registration and sign-in with bcrypt-hashed passwords
 - 🧑‍💼 Admin panel to create, edit and delete products
@@ -84,7 +106,7 @@ A demo boutique with a React front end and an Express + MongoDB REST API.
 <summary><b>🦌 Calendeer</b> · tablet-first family calendar</summary>
 <br/>
 
-Turns chores into points: kids earn rewards and the whole family works toward a shared goal.
+Turns chores into points: kids earn rewards, and the whole family works toward a shared goal.
 
 **Stack:** TypeScript
 </details>
@@ -93,7 +115,7 @@ Turns chores into points: kids earn rewards and the whole family works toward a 
 <summary><b>📍 HappyHunt</b> · find places near you</summary>
 <br/>
 
-Android app that helps users discover nearby parks, restaurants, and other places based on their location.
+An Android app that helps users discover nearby parks, restaurants, and other places based on their location.
 
 **Stack:** Java · Android
 
@@ -104,41 +126,14 @@ Android app that helps users discover nearby parks, restaurants, and other place
 <summary><b>🥫 GroceryApp</b> · inventory management for grocery stores</summary>
 <br/>
 
-Android app for managing a grocery store's inventory, built as the final project for Android Development I.
+An Android app for managing a grocery store's inventory, built as the final project for Android Development I.
 
 **Stack:** Java · Android
 
 👉 [View repository](https://github.com/gabrielapereira15/GroceryApp)
 </details>
 
-<details>
-<summary><b>⚖️ Advocacia Bot</b> · chatbot for a law office</summary>
-<br/>
-
-Built as my capstone project for Systems Analysis & Development.
-
-**Stack:** Python
-</details>
-
 ---
-
-### 📊 GitHub activity
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=gabrielapereira15&theme=github_dark" height="170" alt="GitHub stats"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=gabrielapereira15&theme=github_dark" height="170" alt="Most used languages"/>
-</p>
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=gabrielapereira15&theme=dark&hide_border=true&background=0D1117&ring=14B8A6&fire=14B8A6&currStreakLabel=14B8A6" alt="Contribution streak"/>
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gabrielapereira15/gabrielapereira15/output/github-contribution-grid-snake-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gabrielapereira15/gabrielapereira15/output/github-contribution-grid-snake.svg"/>
-    <img src="https://raw.githubusercontent.com/gabrielapereira15/gabrielapereira15/output/github-contribution-grid-snake.svg" alt="Snake eating my contribution graph"/>
-  </picture>
-</p>
 
 <p align="center"><i>Thanks for stopping by! Feel free to reach out on LinkedIn.</i></p>
 
