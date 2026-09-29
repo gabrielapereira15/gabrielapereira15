@@ -1,8 +1,15 @@
-<h1 align="center">Hi, I'm Gabi 👋</h1>
-<h3 align="center">Software Developer · Mobile & Full-Stack · Java · Android · React · Node.js</h3>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F766E,100:1E3A8A&height=160&section=header&text=Gabriela%20Pereira&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38" width="100%" alt="Gabriela Pereira"/>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/gabriela-pereira-302053147/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a></p>
+  <a href="https://github.com/gabrielapereira15">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=14B8A6&center=true&vCenter=true&width=650&lines=Software+Developer;Mobile+%26+Full-Stack+Apps;Java+%C2%B7+Android+%C2%B7+React+%C2%B7+Node.js;Building+MediConnect+%F0%9F%A9%BA" alt="Software Developer · Mobile & Full-Stack Apps · Java · Android · React · Node.js"/>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/gabriela-pereira-302053147/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://github.com/gabrielapereira15?tab=repositories"><img src="https://img.shields.io/badge/Repositories-0F766E?style=for-the-badge&logo=github&logoColor=white" alt="Repositories"/></a>
+</p>
 
 ---
 
@@ -16,62 +23,123 @@
 
 ---
 
+### 🛠️ Tools & technologies
+
+<p align="center">
+  <b>Languages</b><br/>
+  <img src="https://skillicons.dev/icons?i=java,ts,js,python,cs,html,css&perline=7" alt="Java, TypeScript, JavaScript, Python, C#, HTML, CSS"/>
+</p>
+<p align="center">
+  <b>Frameworks & mobile</b><br/>
+  <img src="https://skillicons.dev/icons?i=react,vite,nodejs,express,androidstudio&perline=7" alt="React, Vite, Node.js, Express, Android Studio"/>
+</p>
+<p align="center">
+  <b>Data, testing & tools</b><br/>
+  <img src="https://skillicons.dev/icons?i=postgres,mongodb,git,github&perline=7" alt="PostgreSQL, MongoDB, Git, GitHub"/><br/>
+  <img src="https://img.shields.io/badge/Cucumber-23D96C?style=flat-square&logo=cucumber&logoColor=white" alt="Cucumber"/>
+  <img src="https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black" alt="Render"/>
+  <img src="https://img.shields.io/badge/Material_Design-757575?style=flat-square&logo=materialdesign&logoColor=white" alt="Material Design"/>
+</p>
+
+---
+
 ### 🚀 Featured projects
 
-#### 🩺 [MediConnect](https://github.com/gabrielapereira15/Mediconnect)
-Patient management platform for Canadian clinics. Patients book in-person or online appointments, fill out pre-appointment forms, and check in virtually. Clinicians and office staff manage the flow from a back office.  
-**Stack:** Java · Android SDK · PostgreSQL · MongoDB · Render · Material Design · Cucumber (API tests)
+<sub>Click a project to expand it.</sub>
 
-#### 🦌 Calendeer
-Tablet-first family calendar that turns chores into points: kids earn rewards and work toward a shared family goal.  
-**Stack:** TypeScript
+<details open>
+<summary><b>🩺 MediConnect</b> · patient management platform for Canadian clinics</summary>
+<br/>
 
-#### 📍 [HappyHunt](https://github.com/gabrielapereira15/HappyHunt_V2)
-Android app that helps users discover nearby parks, restaurants, and places to visit.  
-**Stack:** Java · Android
+Patients book in-person or online appointments, fill out pre-appointment forms, and check in virtually. Clinicians and office staff manage the flow from a back office.
 
-#### 🛒 [Gabi Fashion Store](https://github.com/gabrielapereira15/gabi-fashion-store-ecommerce)
-Full-stack e-commerce store with a product catalogue, persistent cart, validated checkout, bcrypt-hashed accounts, and an admin panel over a REST API. Includes 17 API integration tests.  
+- 📅 Appointment scheduling, in person or online
+- 📝 Pre-appointment forms and virtual check-in
+- 🧪 API covered by Cucumber tests
+
+**Stack:** Java · Android SDK · PostgreSQL · MongoDB · Render · Material Design · Cucumber
+
+👉 [View repository](https://github.com/gabrielapereira15/Mediconnect)
+</details>
+
+<details>
+<summary><b>🛒 Gabi Fashion Store</b> · full-stack e-commerce app</summary>
+<br/>
+
+A demo boutique with a React front end and an Express + MongoDB REST API.
+
+- 🛍️ Product catalogue, category filters and a cart that survives a refresh
+- 💳 Checkout with inline validation and totals computed in cents
+- 🔐 Registration and sign-in with bcrypt-hashed passwords
+- 🧑‍💼 Admin panel to create, edit and delete products
+- ✅ 17 API integration tests (node:test, supertest, in-memory MongoDB)
+- 🌗 Light and dark themes, responsive down to 360px, keyboard accessible
+
 **Stack:** React · Vite · Node.js · Express · MongoDB · supertest
 
-#### 🥫 [GroceryApp](https://github.com/gabrielapereira15/GroceryApp)
-Inventory management app for grocery stores.  
+👉 [View repository](https://github.com/gabrielapereira15/gabi-fashion-store-ecommerce)
+</details>
+
+<details>
+<summary><b>🦌 Calendeer</b> · tablet-first family calendar</summary>
+<br/>
+
+Turns chores into points: kids earn rewards and the whole family works toward a shared goal.
+
+**Stack:** TypeScript
+</details>
+
+<details>
+<summary><b>📍 HappyHunt</b> · find places near you</summary>
+<br/>
+
+Android app that helps users discover nearby parks, restaurants, and other places based on their location.
+
 **Stack:** Java · Android
 
-#### ⚖️ Advocacia Bot
-Chatbot for a law office, built as my capstone project for Systems Analysis & Development.  
+👉 [View repository](https://github.com/gabrielapereira15/HappyHunt_V2)
+</details>
+
+<details>
+<summary><b>🥫 GroceryApp</b> · inventory management for grocery stores</summary>
+<br/>
+
+Android app for managing a grocery store's inventory, built as the final project for Android Development I.
+
+**Stack:** Java · Android
+
+👉 [View repository](https://github.com/gabrielapereira15/GroceryApp)
+</details>
+
+<details>
+<summary><b>⚖️ Advocacia Bot</b> · chatbot for a law office</summary>
+<br/>
+
+Built as my capstone project for Systems Analysis & Development.
+
 **Stack:** Python
+</details>
 
 ---
 
-### 🛠️ Tech stack
+### 📊 GitHub activity
 
-**Languages**
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=gabrielapereira15&theme=github_dark" height="170" alt="GitHub stats"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=gabrielapereira15&theme=github_dark" height="170" alt="Most used languages"/>
+</p>
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=gabrielapereira15&theme=dark&hide_border=true&background=0D1117&ring=14B8A6&fire=14B8A6&currStreakLabel=14B8A6" alt="Contribution streak"/>
+</p>
 
-**Frameworks**
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
-
-**Mobile, data & cloud**
-![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black)
-
-**Testing & tools**
-![Cucumber](https://img.shields.io/badge/Cucumber-23D96C?style=flat-square&logo=cucumber&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Android Studio](https://img.shields.io/badge/Android_Studio-3DDC84?style=flat-square&logo=androidstudio&logoColor=white)
-
----
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gabrielapereira15/gabrielapereira15/output/github-contribution-grid-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gabrielapereira15/gabrielapereira15/output/github-contribution-grid-snake.svg"/>
+    <img src="https://raw.githubusercontent.com/gabrielapereira15/gabrielapereira15/output/github-contribution-grid-snake.svg" alt="Snake eating my contribution graph"/>
+  </picture>
+</p>
 
 <p align="center"><i>Thanks for stopping by! Feel free to reach out on LinkedIn.</i></p>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1E3A8A,100:0F766E&height=100&section=footer" width="100%" alt=""/>
