@@ -28,15 +28,15 @@ Software developer with 4+ years of experience in backend development, system in
 
 <p align="center">
   <b>Languages</b><br/>
-  <img src="https://skillicons.dev/icons?i=java,python,js,ts,html,css&perline=8" alt="Java, Python, JavaScript, TypeScript, HTML, CSS"/>
+  <img src="https://skillicons.dev/icons?i=java,python,js,ts,dart,html,css&perline=8" alt="Java, Python, JavaScript, TypeScript, Dart, HTML, CSS"/>
 </p>
 <p align="center">
   <b>Frameworks & mobile</b><br/>
-  <img src="https://skillicons.dev/icons?i=react,vite,nodejs,express,fastapi,androidstudio&perline=8" alt="React, Vite, Node.js, Express, FastAPI, Android Studio"/>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,vite,nodejs,express,fastapi,flutter,androidstudio&perline=8" alt="React, Next.js, Vite, Node.js, Express, FastAPI, Flutter, Android Studio"/>
 </p>
 <p align="center">
   <b>Data, cloud & tools</b><br/>
-  <img src="https://skillicons.dev/icons?i=postgres,mongodb,sqlite,aws,git,github,tailwind&perline=8" alt="PostgreSQL, MongoDB, SQLite, AWS, Git, GitHub, Tailwind CSS"/>
+  <img src="https://skillicons.dev/icons?i=postgres,mongodb,sqlite,firebase,aws,gcp,git,github,tailwind&perline=9" alt="PostgreSQL, MongoDB, SQLite, Firebase, AWS, Google Cloud, Git, GitHub, Tailwind CSS"/>
 </p>
 <p align="center">
   <b>Healthcare interoperability & testing</b><br/>
@@ -102,12 +102,17 @@ A demo boutique with a React front end and an Express + MongoDB REST API. I firs
 </details>
 
 <details>
-<summary><b>🦌 Calendeer</b> · tablet-first family calendar</summary>
+<summary><b>🦌 Calendeer</b> · family calendar & chore app, in testing with a family</summary>
 <br/>
 
-Turns chores into points: kids earn rewards, and the whole family works toward a shared goal.
+A tablet-first family calendar and chore/reward system for households with kids, now in testing with a family. Kids earn points for chores, and the whole family works toward a shared goal, cheered on by an animated deer mascot.
 
-**Stack:** TypeScript
+- 📺 Wall-mounted Android display app built in Flutter
+- 👨‍👩‍👧 Parent admin web app in Next.js
+- ☁️ TypeScript (Fastify) API on Google Cloud Run with Firestore
+- 🧩 Shared Zod contracts code-generated to Dart; infrastructure as code with Terraform
+
+**Stack:** Flutter · Dart · Next.js · TypeScript · Fastify · Firestore · Google Cloud Run · Terraform
 </details>
 
 <details>
