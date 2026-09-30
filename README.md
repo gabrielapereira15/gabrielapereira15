@@ -18,7 +18,7 @@
 Software developer with 4+ years of experience in backend development, system integration and test automation, now focused on **healthcare interoperability**.
 
 - 💼 **Software Developer at Venuiti Solutions** (Kitchener, ON): I build conformance tests that check whether health systems meet **FHIR/HL7** specifications, using Java, Cucumber and JavaScript. As a business analyst, I also analyze specifications and turn them into use cases and test scenarios.
-- ⚙️ **Delfia (Brazil)**: I grew from intern to leading the Automation & Observability team of four. Our Python automations on REST and SOAP APIs cut repetitive work by 95%, and our automated dashboards cut report generation from a week to a minute.
+- ⚙️ **Delfia (Brazil)**: I grew from intern to managing the Automation & Observability team. Our Python automations on REST and SOAP APIs helped to cut repetitive work, and automated dashboards reduced report generation from a week to a minute.
 - 🎓 **Mobile Solutions Development** at Conestoga College, graduated with distinction · **Systems Analysis & Development** at Impacta (Brazil)
 - 🇨🇦 Based in Kitchener, Ontario, originally from Brazil 🇧🇷 · English & Portuguese
 
@@ -36,14 +36,13 @@ Software developer with 4+ years of experience in backend development, system in
 </p>
 <p align="center">
   <b>Data, cloud & tools</b><br/>
-  <img src="https://skillicons.dev/icons?i=postgres,mongodb,sqlite,aws,git,github,grafana,tailwind&perline=8" alt="PostgreSQL, MongoDB, SQLite, AWS, Git, GitHub, Grafana, Tailwind CSS"/>
+  <img src="https://skillicons.dev/icons?i=postgres,mongodb,sqlite,aws,git,github,tailwind&perline=8" alt="PostgreSQL, MongoDB, SQLite, AWS, Git, GitHub, Tailwind CSS"/>
 </p>
 <p align="center">
   <b>Healthcare interoperability & testing</b><br/>
   <img src="https://img.shields.io/badge/HL7%20%2F%20FHIR-D6282F?style=for-the-badge" alt="HL7 / FHIR"/>
   <img src="https://img.shields.io/badge/Cucumber-23D96C?style=for-the-badge&logo=cucumber&logoColor=white" alt="Cucumber"/>
   <img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white" alt="Jira"/>
-  <img src="https://img.shields.io/badge/Kibana-005571?style=for-the-badge&logo=kibana&logoColor=white" alt="Kibana"/>
 </p>
 
 ---
